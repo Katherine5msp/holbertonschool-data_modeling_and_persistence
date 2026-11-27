@@ -88,3 +88,22 @@ local SQLite database.
 - Independent database copies prevent test interference.
 
 Local validation: All three queries passed.
+
+## Task 6 - Deleting Rows
+
+| File | Description |
+| --- | --- |
+| 6-delete_by_id.sql | Deletes a record using its primary key. |
+| 6-delete_by_condition.sql | Deletes books with zero stock. |
+| 6-delete_with_and.sql | Deletes records matching compound conditions. |
+
+### Concepts Learned
+
+- DELETE removes entire records.
+- WHERE restricts which records are deleted.
+- AND requires both conditions to be true.
+- SELECT can preview records before deletion.
+- Independent database copies protect original data.
+
+Local validation: All three queries passed using a
+temporary database with synthetic test records.
