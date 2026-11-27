@@ -49,3 +49,24 @@ from the books table without filtering or modifying data.
 Local validation: Successful.
 Five rows and two columns returned correctly.
 
+
+## Task 4 - Filtering Rows
+
+| File | Description |
+| --- | --- |
+| 4-filter_by_genre.sql | Filters books by genre. |
+| 4-filter_by_price.sql | Filters books by price. |
+| 4-filter_with_and.sql | Combines conditions using AND. |
+| 4-filter_with_or.sql | Combines conditions using OR. |
+
+### Concepts Learned
+
+- WHERE filters rows based on conditions.
+- Comparison operators filter numerical values.
+- AND requires both conditions to be true.
+- OR requires at least one condition to be true.
+- SELECT returns only the requested columns.
+
+All four queries were successfully tested using a temporary
+local SQLite database.
+
