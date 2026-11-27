@@ -70,3 +70,21 @@ Five rows and two columns returned correctly.
 All four queries were successfully tested using a temporary
 local SQLite database.
 
+
+## Task 5 - Updating Rows
+
+| File | Description |
+| --- | --- |
+| 5-update_by_id.sql | Updates a price using the primary key. |
+| 5-update_by_condition.sql | Increases stock based on publication year. |
+| 5-update_with_and.sql | Applies a discount using compound conditions. |
+
+### Concepts Learned
+
+- UPDATE modifies existing records.
+- SET assigns or calculates new values.
+- WHERE restricts which rows are modified.
+- Primary keys uniquely identify records.
+- Independent database copies prevent test interference.
+
+Local validation: All three queries passed.
