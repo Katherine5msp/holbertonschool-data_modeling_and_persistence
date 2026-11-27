@@ -126,3 +126,25 @@ temporary database with synthetic test records.
 - Sorting occurs before limiting the result set.
 
 Local validation: All four queries passed.
+
+## Task 8 - Aggregate Functions
+
+| File | Description |
+| --- | --- |
+| 8-count_books.sql | Counts all books. |
+| 8-average_price.sql | Calculates the average price. |
+| 8-max_stock.sql | Finds the maximum stock value. |
+| 8-total_stock.sql | Calculates the total available stock. |
+| 8-min_price.sql | Finds the minimum price. |
+
+### Concepts Learned
+
+- COUNT counts records.
+- AVG calculates the arithmetic mean.
+- MAX returns the largest value.
+- SUM adds numerical values.
+- MIN returns the smallest value.
+- Aggregate functions summarize multiple rows into one value
+  when used without grouping.
+
+Local validation: All five queries passed.
