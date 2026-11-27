@@ -148,3 +148,23 @@ Local validation: All four queries passed.
   when used without grouping.
 
 Local validation: All five queries passed.
+
+## Task 9 - Grouping Data with GROUP BY
+
+| File | Description |
+| --- | --- |
+| 9-count_by_genre.sql | Counts books per genre. |
+| 9-average_price_by_genre.sql | Calculates average price per genre. |
+| 9-total_stock_by_genre.sql | Calculates total stock per genre. |
+| 9-count_by_author.sql | Counts books per author. |
+
+### Concepts Learned
+
+- GROUP BY organizes rows into categories.
+- Aggregate functions operate independently on each group.
+- COUNT calculates the number of records per group.
+- AVG calculates the average value per group.
+- SUM calculates the total value per group.
+- Result ordering is not guaranteed without ORDER BY.
+
+Local validation: All four queries passed.
