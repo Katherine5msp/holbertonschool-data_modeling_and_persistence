@@ -168,3 +168,31 @@ Local validation: All five queries passed.
 - Result ordering is not guaranteed without ORDER BY.
 
 Local validation: All four queries passed.
+
+## Task 10 - Integrative Queries and Data Manipulation
+
+| File | Description |
+| --- | --- |
+| 10-select_tech_books.sql | Retrieves technical books published from 2000 onward. |
+| 10-increase_stock.sql | Increases stock for low-availability books. |
+| 10-delete_zero_stock.sql | Removes unavailable books. |
+| 10-cheapest_available.sql | Retrieves the four cheapest available books. |
+| 10-stock_by_genre.sql | Calculates total stock per genre. |
+| 10-average_price_by_genre.sql | Calculates average price per genre. |
+
+### Concepts Learned
+
+- Translating business requirements into SQL queries.
+- Combining filtering, sorting, and limiting.
+- Updating and deleting targeted records.
+- Summarizing and grouping data.
+- Testing queries independently.
+- Preserving database schema and integrity.
+
+Local validation: All six queries passed.
+
+## Project Conclusion
+
+This project demonstrates fundamental SQL CRUD operations,
+data filtering, ordering, aggregation, and grouping using
+SQLite and standard SQL syntax.
