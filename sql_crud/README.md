@@ -107,3 +107,22 @@ Local validation: All three queries passed.
 
 Local validation: All three queries passed using a
 temporary database with synthetic test records.
+
+## Task 7 - Ordering and Limiting Results
+
+| File | Description |
+| --- | --- |
+| 7-order_by_price_asc.sql | Sorts books by ascending price. |
+| 7-order_by_year_desc.sql | Sorts books by descending publication year. |
+| 7-limit_results.sql | Returns the three cheapest books. |
+| 7-order_and_limit.sql | Returns the five books with highest stock. |
+
+### Concepts Learned
+
+- ORDER BY controls the order of query results.
+- ASC sorts values in ascending order.
+- DESC sorts values in descending order.
+- LIMIT restricts the number of returned rows.
+- Sorting occurs before limiting the result set.
+
+Local validation: All four queries passed.
